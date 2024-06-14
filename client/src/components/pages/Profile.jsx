@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react'
-import { UserContext } from '../../context/UserContext'
+import { UserContext } from '../../UserContext'
 import NewIssueForm from '../sections/NewIssueForm'
 import Issue from '../sections/Issue'
 

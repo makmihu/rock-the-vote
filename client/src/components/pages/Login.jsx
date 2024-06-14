@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react'
-import { UserContext } from '../../context/UserContext'
+import { UserContext } from '../../UserContext'
 import LoginForm from '../sections/LoginForm'
 
 export default function Login() {

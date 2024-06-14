@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { UserContext } from './context/UserContext'
+import { UserContext } from './UserContext'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Navbar from './components/sections/Navbar'
 import Profile from './components/pages/Profile'

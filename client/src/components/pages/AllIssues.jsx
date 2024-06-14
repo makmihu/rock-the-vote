@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { UserContext } from '../../context/UserContext'
+import { UserContext } from '../../UserContext'
 import Issue from '../sections/Issue'
 
 export default function Issues() {
