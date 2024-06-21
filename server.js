@@ -4,6 +4,7 @@ require('dotenv').config()
 const morgan = require('morgan')
 const mongoose = require('mongoose')
 const { expressjwt } = require('express-jwt')
+const port = process.env.PORT || 6700
 
 app.use(express.json())
 app.use(morgan('dev'))
@@ -26,6 +27,4 @@ app.use((err, req, res, next) => {
     return res.send({errMsg: err.message})
   })
 
-app.listen(process.env.PORT, () => {
-    console.log('Server on port 6700')
-})
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
